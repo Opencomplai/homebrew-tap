@@ -5,8 +5,8 @@ class Opencomplai < Formula
 
   desc "Command-line EU AI Act compliance checks for AI systems"
   homepage "https://opencomplai.com"
-  url "https://files.pythonhosted.org/packages/30/f9/f21b5ce9aa6399337f318a29f5aaa9f28689c962e246fac5826822e7d120/opencomplai-0.15.0.tar.gz"
-  sha256 "c5c3cf2272bf0d08c2780cf65ea42521afa7c0edc0606dc8ce65346b61584021"
+  url "https://files.pythonhosted.org/packages/15/08/3f4f2bdef78b834d47c27298faed395287d7e6e325b20b5ec01f7fc57c13/opencomplai-0.16.0.tar.gz"
+  sha256 "92a0a43a44b448093385d612809c2109d5556c3330cb63564515519c21b8adfa"
   license "AGPL-3.0-only"
 
   depends_on "pkgconf" => :build
@@ -20,8 +20,8 @@ class Opencomplai < Formula
   uses_from_macos "zlib"
 
   resource "annotated-doc" do
-    url "https://files.pythonhosted.org/packages/5a/8e/38aa427ed5402449e226975b649c5dc73ccadfefeb95e6aecb8f8ea4b6b6/annotated_doc-0.0.5.tar.gz"
-    sha256 "c7e58ce09192557605d8bbd92836d7e1d520ac9580096042c0bfd197efacf1bb"
+    url "https://files.pythonhosted.org/packages/0f/6e/a61e86e43bb6039b31a33a8f5fba76fe1cdacf3661e7b9756d4ff1b28cdc/annotated_doc-0.0.6.tar.gz"
+    sha256 "7969bb69912085b2285849c0dcac0b4b374fd180c13cf10a87f284ffcf347bbf"
   end
 
   resource "annotated-types" do
@@ -50,8 +50,8 @@ class Opencomplai < Formula
   end
 
   resource "markdown-it-py" do
-    url "https://files.pythonhosted.org/packages/06/ff/7841249c247aa650a76b9ee4bbaeae59370dc8bfd2f6c01f3630c35eb134/markdown_it_py-4.2.0.tar.gz"
-    sha256 "04a21681d6fbb623de53f6f364d352309d4094dd4194040a10fd51833e418d49"
+    url "https://files.pythonhosted.org/packages/16/fc/cee2c45553c9a9bf77d8b0c391560c556d7ed756b1f0bb35eb5d48db09ea/markdown_it_py-4.3.0.tar.gz"
+    sha256 "91a58fa5b72c71a40cf7177250fd767480d7a2bb3ac426ccfb76fb90305fdaaa"
   end
 
   resource "mdurl" do
@@ -60,13 +60,13 @@ class Opencomplai < Formula
   end
 
   resource "opencomplai-cli" do
-    url "https://files.pythonhosted.org/packages/dc/cf/a3014754d5bdfa3da8e93fb6792dfef51e6acc261875603d38e06311b6ef/opencomplai_cli-0.15.0.tar.gz"
-    sha256 "e567fed96ac8b496a6946eb694cb0431d387bb4ef757fd84d0f1e315fe83df2d"
+    url "https://files.pythonhosted.org/packages/6f/c3/77e8ed14cfc7d6fc5e858639093b5d219e125d1c066d3e707b6e49ac29b4/opencomplai_cli-0.16.0.tar.gz"
+    sha256 "618b0e51ff23e1a23e7182684dd8fa55c81c2052d8c89c7ef3cc7cb16689f098"
   end
 
   resource "opencomplai-core" do
-    url "https://files.pythonhosted.org/packages/fc/ba/b6e6dc9bcb2210da51453b12199c8e647dab49eec27c4b5d9300fa024349/opencomplai_core-0.15.0.tar.gz"
-    sha256 "cfbba429caf72abd47238e1cfc97594dd653deffdcdc3dc16aa67ae9cabbffaa"
+    url "https://files.pythonhosted.org/packages/da/4e/bc67b6a0b7a19037b4d4e424bc0af758f23c8fe8a713c73cb73107c2fb3a/opencomplai_core-0.16.0.tar.gz"
+    sha256 "384e6c1aaaa680f75a783db55ce6c37cb71e7c4c48bbf7972b4f0f229d841cb4"
   end
 
   resource "pillow" do
@@ -120,8 +120,8 @@ class Opencomplai < Formula
   end
 
   resource "typer" do
-    url "https://files.pythonhosted.org/packages/ad/8f/21021859316f44289101638dc74d82e13d722d8533e4b8708a3ab7c8461a/typer-0.28.0.tar.gz"
-    sha256 "69ab84ef79fd601cff071bbd2566d855ecadfd93adbc4b3360b9924359bdd857"
+    url "https://files.pythonhosted.org/packages/6c/aa/0de7986aa1fa856adb961c67345189b97d13f6e250b34ba68884df865f07/typer-0.29.1.tar.gz"
+    sha256 "ab6eb3880bf67ce96147734717f9ec333c06f66e361f3ea947d0be43da39f242"
   end
 
   resource "typing-extensions" do
